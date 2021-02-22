@@ -110,7 +110,7 @@ jobs:
         name: checkout
         uses: actions/checkout@v2
         with:
-          repository: appelgriebsch/arm-profiles
+          repository: manjaro-arm-community/arm-profiles
           token: "${{ secrets.GITHUB_TOKEN }}"
           path: 'arm-profiles'
       -
@@ -122,7 +122,7 @@ jobs:
           VERSION: ${{ steps.time.outputs.time }}
         run: |
           sudo mv -v /home/runner/work/gnome-images/gnome-images/arm-profiles /usr/share/manjaro-arm-tools/profiles
-          sudo buildarmimg -d $DEVICE -e $EDITION -b $BRANCH
+          sudo buildarmimg -d $DEVICE -e $EDITION -b $BRANCH -v $VERSION
 
           ls -lasih /var/cache/manjaro-arm-tools/img
 
