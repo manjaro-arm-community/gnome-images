@@ -3,6 +3,8 @@
 [![prerelease_build_gnome](https://github.com/manjaro-arm-community/gnome-images/actions/workflows/prerelease_build_gnome.yaml/badge.svg)](https://github.com/manjaro-arm-community/gnome-images/actions/workflows/prerelease_build_gnome.yaml)
 [![release_build_gnome](https://github.com/manjaro-arm-community/gnome-images/actions/workflows/release_build_gnome.yaml/badge.svg)](https://github.com/manjaro-arm-community/gnome-images/actions/workflows/release_build_gnome.yaml)
 
+![current screenshot](https://user-images.githubusercontent.com/6803419/109429579-a6ace400-79fc-11eb-92ef-3269f098263f.png)
+
 ## description
 
 Release Branch for Manjaro ARM GNOME profile images
