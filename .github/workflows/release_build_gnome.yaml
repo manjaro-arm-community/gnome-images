@@ -46,7 +46,7 @@ jobs:
         id: time
         uses: nanzm/get-time-action@v1.1
         with:
-          format: 'YYYYMMDD'
+          format: 'YY.MM'
       -
         name: install-arm-tools
         run: |
